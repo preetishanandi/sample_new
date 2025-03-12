@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Qudrant Edge</title>
+   <link rel="icon" href="images/Logo-5.png" type="image/png">
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="sample.css">
+
+</head>
+<body>
+    <header class="header"> 
+        <nav>
+            <a href="dashboard.html" class="logo"><img src="images/Logo-4.png" class="image" alt=""></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="dashboard.html"><i class="fas fa-cube"></i>Dashboard</a></li>
+                    <li><a href="courses.html"><i class="fas fa-book-open"></i>My Courses</a></li>
+                    <li><a href="library.html"><i class="fas fa-chalkboard user"></i>Digital Library</a></li>
+                    <li><a href="profile.html"><i class="fas fa-user"></i>My Profile</a></li>
+                </ul>
+            </div>
+            <div class="exit">
+                <a href="login.html"><i class="fas fa-power-off"></i>Logout</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="intro">
+        <nav>
+        <div class="profile">
+            <img src="images/user.png" class="image" alt="">         
+        </div>
+
+        <div class="pr">
+            <h2>Welcome to your Profile</h2>
+            <p>Get personalized overview of your learning journey, progress, and achievements </p>
+        </div>
+        </nav>
+    </div>
+
+
+    <div class="row1">
+
+    <div class="report">
+
+        <div class="heading"></div>
+    
+        <div class="report-head">
+    
+            <img src="images/user.png" class="image" alt=""> 
+            
+            <div class="report-head-label">
+               <p1>Preetisha</p1>
+               <p>User id:222</p>
+            </div>
+        </div>
+    
+        <div class="report-card">
+
+            <div class="progress-container">
+                <div class="progress-circle">
+                  <span class="progress-value">Progress</span>
+                </div>
+            </div>
+
+            <div class="grid-line">
+                <p>5</p>
+                <div class="cube5"></div>
+                <div class="cube5"></div>
+                <div class="cube5"></div>
+                <div class="cube5"></div>
+                <div class="cube5"></div>
+            </div>
+            <div class="grid-line">
+                <p>4</p>
+                <div class="cube4"></div>      
+                <div class="cube4"></div>
+                <div class="cube4"></div>
+                <div class="cube4"></div>
+            </div>
+            <div class="grid-line">
+                <p>3</p>
+                <div class="cube3"></div>
+                <div class="cube3"></div>
+                <div class="cube3"></div>          
+            </div>
+            <div class="grid-line">
+                <p>2</p>
+                <div class="cube2"></div>
+                <div class="cube2"></div>
+            </div>
+            <div class="grid-line">
+                <p>1</p>
+                <div class="cube1"></div>
+            </div>
+            
+    
+        </div>
+    
+    
+    </div>       
+    
+    
+    <div class="dailyLearningTime">
+        <canvas id="barChart" width="800" height="450"></canvas>
+        <script src="script.js"></script>
+    </div>
+       
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+
+
+</html>

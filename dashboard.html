@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Qudrant Edge</title>
+   <link rel="icon" href="images/Logo-5.png" type="image/png">
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="sample.css">
+
+</head>
+<body>
+    <header class="header"> 
+        <nav>
+            <a href="dashboard.html" class="logo"><img src="images/Logo-4.png" class="image" alt=""></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="dashboard.html"><i class="fas fa-cube"></i>Dashboard</a></li>
+                    <li><a href="courses.html"><i class="fas fa-book-open"></i>My Courses</a></li>
+                    <li><a href="library.html"><i class="fas fa-chalkboard user"></i>Digital Library</a></li>
+                    <li><a href="profile.html"><i class="fas fa-user"></i>My Profile</a></li>
+                </ul>
+            </div>
+            <div class="exit">
+                <a href="login.html"><i class="fas fa-power-off"></i>Logout</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="tab">
+        <button class="tablinks" onclick="openTab(event, 'Slide1')"></button>
+        <button class="tablinks" onclick="openTab(event, 'Slide2')"></button>
+        <!-- Add more buttons for additional slides as needed -->
+      
+        <div id="Slide1" class="tabcontent">
+          <!-- Content for Slide 1 -->
+           <p style="font-family :'Times New Roman', Times, serif; font-size: 45px; font-weight: bold; color: #615c5c;">Learn from the best</p>
+           <p style="font-family: 'Times New Roman', Times, serif; font-size: 30px; font-weight: bold; color: #615c5c;">choose from 2,00,000 online video content</p>
+
+        </div>,
+      
+        <div id="Slide2" class="tabcontent">
+          <!-- Content for Slide 2 -->
+         <!-- <a href="index.html" class="logo"><img src="images/pic-9.jpg" class="image" alt=""></a>-->
+          
+        </div>
+        <!-- Add more divs for additional slides as needed -->
+      
+      <div class="slide-navigation">
+        <a href="dashboard3.html"><button class="prev" onclick="plusSlides(-1)">❮</button></a>
+        <a href="dashboard2.html"><button class="next" onclick="plusSlides(1)">❯</button></a>
+      </div>
+    </div>
+
+
+    <div class="box-container">
+
+        <div class="box1">
+           <i class="fas fa-medal"></i>
+           <p>0</p>
+           <p>Badges</p> 
+        </div>
+        
+        <div class="box2">
+           <i class="fas fa-coins"></i>
+           <p>0</p>
+           <p>Points</p>            
+        </div>
+    
+        <div class="box3">
+           <i class="fas fa-ticket"></i>
+           <p>0</p>
+           <p>Completed Courses</p>
+        </div>
+        
+        <div class="box4">
+            <i class="fas fa-chart-line"></i>
+            <p>0</p>
+            <p>Courses in Progress</p>
+        </div>
+    
+        <div class="box5">
+            <i class="fas fa-clock"></i>
+            <p>0</p>
+            <p>Hrs Training Time</p>
+        </div>           
+    </div>
+
+    <div class="popular-courses">
+
+        <h2>Popular Courses</h2>
+
+        <div class="box1">
+           <img src="images/excel.png" class="image" alt="">
+           <p style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px; font-weight: bold; color: #3f3b3b; text-align: left;">Microsoft Excel</p>
+           <div class="sss">
+             <h3>Popular</h3>
+             <i class="fas fa-user"></i>
+             <i class="fas fa-user-friends""></i>
+           </div>
+
+        </div>
+        
+        <div class="box2">
+            <img src="images/ppt.png" class="image" alt="">  
+            <p style="font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px; font-weight: bold; color: #3f3b3b; text-align: left;">Microsoft PowerPoint</p>
+           <div class="sss">
+             <h3>Popular</h3>
+             <i class="fas fa-user"></i>
+             <i class="fas fa-user-friends""></i>
+           </div>          
+        </div>
+    
+        <div class="box3">
+            <img src="images/win.png" class="image" alt="">
+            <p style="font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px; font-weight: bold; color: #3f3b3b; text-align: left;">Winning Mindset</p>
+           <div class="sss">
+             <h3>Popular</h3>
+             <i class="fas fa-user"></i>
+             <i class="fas fa-user-friends""></i>
+           </div>
+        </div>
+        
+        <div class="box4">
+            <img src="images/customer.png" alt="">
+            <p style="font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px; font-weight: bold; color: #3f3b3b; text-align: left;">Customer Service: Essential Skills</p>
+           <div class="sss">
+             <h3>Popular</h3>
+             <i class="fas fa-user"></i>
+             <i class="fas fa-user-friends""></i>
+           </div>
+        </div>
+    
+            
+    </div>
+
+    <div class="recomend-courses">
+
+        <h2>Recommended Courses</h2>
+
+        <div class="box1">
+           <img src="images/groom.png" class="image" alt="">
+           <p style="font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px; font-weight: bold; color: #3f3b3b; text-align: left;">Grooming Skills</p>
+           <div class="sss">
+             <h3>Recommended</h3>
+             <i class="fas fa-user"></i>
+             <i class="fas fa-user-friends""></i>
+           </div>
+        </div>
+        
+        <div class="box2">
+            <img src="images/sell.png" class="image" alt="">    
+            <p style="font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px; font-weight: bold; color: #3f3b3b; text-align: left;">Selling Skills</p>
+            <div class="sss">
+              <h3>Recommended</h3>
+              <i class="fas fa-user"></i>
+              <i class="fas fa-user-friends""></i>
+            </div>        
+        </div>
+    
+        <div class="box3">
+            <img src="images/negotiate.png" class="image" alt="">
+            <p style="font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px; font-weight: bold; color: #3f3b3b; text-align: left;">Negotiation Skills</p>
+            <div class="sss">
+              <h3>Recommended</h3>
+              <i class="fas fa-user"></i>
+              <i class="fas fa-user-friends""></i>
+            </div>
+        </div>
+        
+        <div class="box4">
+            <img src="images/time.jpeg" class="image" alt="">
+            <p style="font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px; font-weight: bold; color: #3f3b3b; text-align: left;">Time Management</p>
+            <div class="sss">
+              <h3>Recommended</h3>
+              <i class="fas fa-user"></i>
+              <i class="fas fa-user-friends""></i>
+            </div>
+        </div>
+    
+            
+    </div>
+    
+    
+    
+
+
+      
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

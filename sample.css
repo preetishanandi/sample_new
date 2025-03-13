@@ -571,6 +571,7 @@ nav img{
 
 
 .courses{
+   box-sizing: border-box;
    display: flex;
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(20rem,10fr) );
